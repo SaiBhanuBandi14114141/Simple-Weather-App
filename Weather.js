@@ -23,8 +23,8 @@ const Weather = () => {
   return (
     <div>
       <center>
-        <div >
-          <div >
+        <div>
+          <div>
             <h2>Weather App</h2>
             <form onSubmit={submitHandler}>
               <input size="30" type="text" name="city" onChange={changeHandler} value={city}/> <br /><br />
